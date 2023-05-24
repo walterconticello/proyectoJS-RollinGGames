@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    --negro: #000000;
+    --azulOscuro: #0B2447;
+    --azul: #19376D;
+    --azulClaro: #576CBC;
+    --celeste: #A5D7E8;
+    --blanco: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+    --purple: rgb(123, 31, 162);
+	--violet: rgb(103, 58, 183);
+	--pink: rgb(244, 143, 177);
+
+	--primary-color: #14112E;
+	--text-color: #A0A3C4;
+	--input-color: #393D63;
+	--text-span-color: #5B5BD7;
+	--gradient-color-1: rgba(72, 87, 240, 1);
+	--gradient-color-2: rgba(83, 54, 164, 1);
+	--btn-color: #393D63;
+	--logo-color: #5B5BD7;
+	--icon-color: invert(34%) sepia(97%) saturate(6894%) hue-rotate(260deg) brightness(106%) contrast(103%);
+}
+
+.bg-error404 {
+    background-image: url(../img/error404.png);
+    background-size:cover;
+    -webkit-animation: slidein 100s;
+    animation: slidein 100s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+.bg-error404 main{
+    height: 100vh;
+}
+
+.fs-0 {
+    font-size: calc(2rem + 1.5vw);
+}
+
+.errorBotonTamaño{
+    width: 100%;
+}
+
+.text-footer{
+	color: var(--pink);
+	font-weight: 600;
+}
+
+.footer-background{
+	background-color: #000000;
+}
+
+.pagos-icons{
+	width: 10%;
+}
+
+/*Responsive*/
+@media all and (min-width: 768px) {
+    .errorBotonTamaño{
+        width: 50%;
+    }
+}
+@media all and (min-width: 992px) {
+    .errorBotonTamaño{
+        width: 25%;
+    }
+    .pagos-icons{
+		width: 25%;
+	}
+}

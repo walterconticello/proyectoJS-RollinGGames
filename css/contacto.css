@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --purple: rgb(123, 31, 162);
+--violet: rgb(103, 58, 183);
+--pink: rgb(244, 143, 177);
+
+--primary-color: #14112E;
+--text-color: #A0A3C4;
+--input-color: #393D63;
+--text-span-color: #5B5BD7;
+--gradient-color-1: rgba(72, 87, 240, 1);
+--gradient-color-2: rgba(83, 54, 164, 1);
+--btn-color: #393D63;
+--logo-color: #5B5BD7;
+--icon-color: invert(34%) sepia(97%) saturate(6894%) hue-rotate(260deg) brightness(106%) contrast(103%);
+  font-family: 'Lato', sans-serif;
+}
+
+
+body {
+  background-color: var(--primary-color);
+  background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/bg_registro.jpg);
+}
+
+header{
+  background-color: var(--primary-color);
+}
+
+.titulo-contacto{
+  text-align: center;
+}
+.form-contacto{
+  width: auto;
+  height: 500px;
+  padding: 10px;
+  background-color: var(--primary-color);
+  margin:auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #14112E;
+
+}
+.form-contacto h1{
+  margin-bottom: 22px;
+}
+.input-contacto{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid var(--purple);
+  font-size: 18px;
+}
+.input-txtArea{
+  width: 100%;
+  height: 190px;
+  margin-bottom: 15px;
+  resize: none;
+  font-size: 18px;
+}
+.form-contacto .btn-contacto{
+  width: 100%;
+  background-color: var(--violet);
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  position: relative;
+}
+.btn-contacto:hover{
+  background-color: var(--purple);
+}
+
+.bi-arrow-left-square{
+  position: absolute;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 867px){
+	.btn-logo-volver{
+		left: 90px;
+		top: 20px;
+	}
+}
+
+@media screen and (max-width: 753px){
+	body{
+		flex-direction: column;
+	}
+	.btn-logo-volver{
+		position:initial;
+		margin-top: 5px;
+    margin-left: 5px;
+		margin-bottom: 2px;
+    width: 50px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.btn-logo-volver{
+		position:initial;
+		margin-top: 5px;
+    margin-left: 5px;
+		margin-bottom: 2px;
+    width: 50px;
+	}
+}

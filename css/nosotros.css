@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    --purple: rgb(123, 31, 162);
+	--violet: rgb(103, 58, 183);
+	--pink: rgb(244, 143, 177);
+
+	--primary-color: #14112E;
+	--text-color: #A0A3C4;
+	--input-color: #393D63;
+	--text-span-color: #5B5BD7;
+	--gradient-color-1: rgba(72, 87, 240, 1);
+	--gradient-color-2: rgba(83, 54, 164, 1);
+	--btn-color: #393D63;
+	--logo-color: #5B5BD7;
+	--icon-color: invert(34%) sepia(97%) saturate(6894%) hue-rotate(260deg) brightness(106%) contrast(103%);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color: var(--primary-color);
+}
+
+.circleBorder{
+    border-radius: 100%;
+}
+
+.avatar{
+    width: 20%;
+}
+
+.fs-0 {
+    font-size: calc(2rem + 1.5vw);
+}
+
+.name-brand{
+	animation: background-pan 1s linear infinite;
+	background: linear-gradient(to right,
+			var(--purple),
+			var(--violet),
+			var(--pink),
+			var(--purple));
+	background-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	white-space: nowrap;
+	font-weight: 700;
+}
+
+@keyframes background-pan {
+	from {
+		background-position: 0% center;
+	}
+
+	to {
+		background-position: -200% center;
+	}
+}
+
+.text-footer{
+	color: var(--pink);
+	font-weight: 600;
+}
+
+.footer-background{
+	background-color: #000000;
+}
+
+.pagos-icons{
+	width: 10%;
+}
+@media all and (min-width: 992px) {
+	.pagos-icons{
+		width: 25%;
+	}
+}
+
+@media all and (max-width: 300px) {
+    .navbar-brand{
+        display: none;
+    }
+    .name-brand{
+        font-size: 1.5rem;;
+    }
+}
+
+@media all and (max-width: 300px) {
+	.logo{
+		display: none;
+	}
+
+}
