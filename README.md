@@ -2,11 +2,13 @@
 Este repositorio contiene el código fuente y los archivos relacionados con el proyecto RollinGGames, una página de ventas de videojuegos de distintos géneros. A continuación se presenta información relevante sobre el repositorio.
 
 ## Integrantes
+<ul>
 [Aguilera Castro, Leonardo](https://github.com/LeoAc92)
-[Conticello, Walter] (https://github.com/walterconticello)
+[Conticello, Walter](https://github.com/walterconticello)
 [Galindo, Braian Martin Alexis](https://github.com/alexisg259)
 [Jose, Mauro Simon](https://github.com/MauroSJ)
 [Vaca Paz, Diego](https://github.com/diegovacapaz)
+</ul>
 
 ## Descripción del Proyecto
 El proyecto RollinGGames consiste en una página web de ventas de videojuegos dirigida a los amantes de los juegos. La página presenta diversas secciones y funcionalidades, incluyendo:
