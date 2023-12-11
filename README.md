@@ -34,5 +34,6 @@ Copy code
 git clone https://github.com/diegovacapaz/TrabajoRollingM2---Grupo1.git
 Deploy del Proyecto
 Puedes acceder al sitio web en el siguiente enlace: https://rollinggames-shop.netlify.app/
+**PARA UNA MEJOR EXPERIENCIA EN LA PAGINA AGREGUE UN PRODUCTO PARA VER LOS EFECTOS DE LAS CARDS Y BOTONES**
 
 Para cualquier consulta o contribución al proyecto, por favor, dirígete a los enlaces de los integrantes mencionados anteriormente. ¡Gracias por tu interés en RollinGGames!
